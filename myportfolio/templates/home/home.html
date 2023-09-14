@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block content %}
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  {% include 'header/navbar.html' %}
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Shital Sapkota</h1>
+      <p>I'm <span class="typed" data-typed-items="Software Developer,Freelancer,Adventurer,Photographer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    {% include 'sidebar/about.html' %}
+    <!-- End About Section -->
+
+    <!-- ======= Resume Section ======= -->
+    {% include 'sidebar/resume.html' %}
+    <!-- End Resume Section -->
+
+
+    <!-- ======= Skills Section ======= -->
+    {% include 'sidebar/skills.html' %}
+    <!-- End Skills Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <!--  - certificates -->
+    {% include 'sidebar/certificates.html' %}
+    <!-- End certificates Section -->
+
+
+    <!-- ======= Portfolio Section ======= -->
+    {% include 'sidebar/portfoliopage.html' %}
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    {% include 'home/services.html' %}
+    <!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    {% include 'home/testimonials.html' %}
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    {% include 'sidebar/contact.html' %}
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+{% endblock %}
