@@ -1,0 +1,21 @@
+<section id="facts" class="facts">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Certificates</h2>
+          <h5>Online Learning Certificates</h5>
+        </div>
+
+        <div class="row no-gutters">
+        {% for cert in certificates %}
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="count-box">
+              <i class="bi bi-patch-check"></i>
+              <p><strong>{{ cert.certificate_name }}</strong> {{ cert.certificate_url }}</p>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+
+      </div>
+    </section>
