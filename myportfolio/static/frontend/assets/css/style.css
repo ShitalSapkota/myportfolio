@@ -93,7 +93,7 @@ h6 {
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
-  padding: 0;
+  padding-top: 50px;
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
@@ -430,7 +430,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -465,6 +465,7 @@ section {
   transition: 0.9s;
   background-color: #149ddd;
 }
+
 
 /*--------------------------------------------------------------
 # Resume
